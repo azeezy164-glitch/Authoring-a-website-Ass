@@ -1,0 +1,221 @@
+/* ===============================
+   GENERAL STYLING
+================================= */
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:#f5f7fa;
+    color:#333;
+    margin:0;
+    padding:0;
+}
+
+/* ===============================
+   TOP BAR
+================================= */
+
+.top-bar{
+    background:#003366;
+    color:white;
+    padding:10px 0;
+    font-size:14px;
+}
+
+/* ===============================
+   NAVIGATION
+================================= */
+
+.navbar{
+    box-shadow:0 3px 10px rgba(0,0,0,.2);
+}
+
+.navbar-brand{
+    font-size:1.5rem;
+    font-weight:bold;
+}
+
+.nav-link{
+    font-size:17px;
+    margin-left:15px;
+}
+
+.nav-link:hover{
+    color:#FFD54F !important;
+}
+
+/* ===============================
+   HERO SECTION
+================================= */
+
+.hero{
+    background:linear-gradient(rgba(0,51,102,.8),
+    rgba(0,51,102,.8)),
+    url("../images/library.jpg");
+    background-size:cover;
+    background-position:center;
+    color:white;
+    padding:100px 0;
+}
+
+.hero h1{
+    font-size:3rem;
+    font-weight:bold;
+}
+
+.hero p{
+    font-size:20px;
+    margin:20px 0;
+}
+
+.hero-image{
+    border-radius:20px;
+    box-shadow:0 10px 30px rgba(0,0,0,.4);
+}
+
+/* ===============================
+   BUTTONS
+================================= */
+
+.btn{
+    transition:.3s;
+}
+
+.btn:hover{
+    transform:translateY(-3px);
+}
+
+/* ===============================
+   FEATURE CARDS
+================================= */
+
+.feature-card{
+    border:none;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
+    transition:.3s;
+    margin-bottom:20px;
+}
+
+.feature-card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 10px 25px rgba(0,0,0,.2);
+}
+
+.feature-card h1{
+    font-size:50px;
+}
+
+/* ===============================
+   BOOK CARDS
+================================= */
+
+.card{
+    border:none;
+    border-radius:15px;
+    overflow:hidden;
+    transition:.3s;
+}
+
+.card:hover{
+    transform:scale(1.03);
+}
+
+.card img{
+    height:220px;
+    object-fit:cover;
+}
+
+/* ===============================
+   STATISTICS
+================================= */
+
+.stats{
+    background:#003366;
+    padding:60px 0;
+}
+
+.stats h2{
+    font-size:40px;
+    font-weight:bold;
+}
+
+/* ===============================
+   FOOTER
+================================= */
+
+footer{
+    background:#222;
+    color:white;
+    padding:40px 0;
+}
+
+footer h4{
+    margin-bottom:20px;
+}
+
+footer a{
+    color:white;
+    text-decoration:none;
+}
+
+footer a:hover{
+    color:#FFD54F;
+}
+
+footer hr{
+    border-color:#666;
+}
+
+/* ===============================
+   TABLES
+================================= */
+
+table{
+    background:white;
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
+}
+
+/* ===============================
+   CONTACT FORM
+================================= */
+
+form{
+    background:white;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
+}
+
+input,
+textarea{
+    margin-bottom:15px;
+}
+
+/* ===============================
+   RESPONSIVE DESIGN
+================================= */
+
+@media(max-width:768px){
+
+.hero{
+    text-align:center;
+    padding:60px 20px;
+}
+
+.hero h1{
+    font-size:2.2rem;
+}
+
+.hero-image{
+    margin-top:30px;
+}
+
+.top-bar{
+    display:none;
+}
+
+.nav-link{
+    margin-left:0;
+}
+
+}
